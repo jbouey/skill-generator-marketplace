@@ -1,6 +1,6 @@
-# Skill Generator Plugin
+# Malachor's Skill Generator Plugin
 
-A Claude Code plugin that analyzes your codebase and automatically generates specialized skills to help Claude produce the highest quality code output.
+A Claude Code plugin by **Malachor** that analyzes your codebase and automatically generates specialized skills to help Claude produce the highest quality code output.
 
 ## Overview
 
