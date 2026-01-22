@@ -1,61 +1,13 @@
 {
-  "name": "skill-generator-marketplace",
-  "description": "A marketplace for codebase analysis and skill generation plugins",
-  "version": "1.0.0",
-  "owner": {
-    "name": "Marketplace",
-    "url": "https://github.com/your-org"
-  },
   "plugins": [
     {
       "name": "skill-generator",
-      "description": "Analyzes codebase and generates specialized skills for security, performance, React, and backend technologies",
       "version": "1.0.0",
-      "author": {
-        "name": "Marketplace",
-        "url": "https://github.com/your-org"
-      },
-      "homepage": "https://github.com/your-org/skill-generator",
-      "repository": "https://github.com/your-org/skill-generator",
-      "source": ".claude-plugin/skill-generator",
-      "commands": {
-        "generate-skills": {
-          "script": "generate-skills.js",
-          "description": "Analyzes codebase and generates specialized skills using 10 sub-agents"
-        }
-      },
-      "agents": {
-        "tech-stack-analyzer": {
-          "description": "Analyzes the codebase to detect technologies and frameworks"
-        },
-        "security-analyzer": {
-          "description": "Analyzes codebase for security patterns and generates security skills"
-        },
-        "performance-analyzer": {
-          "description": "Analyzes codebase for performance patterns and generates performance skills"
-        },
-        "react-analyzer": {
-          "description": "Analyzes React code and generates React-specific skills"
-        },
-        "backend-analyzer": {
-          "description": "Analyzes backend code and generates backend-specific skills"
-        },
-        "frontend-analyzer": {
-          "description": "Analyzes frontend code and generates frontend-specific skills"
-        },
-        "database-analyzer": {
-          "description": "Analyzes database usage and generates database-specific skills"
-        },
-        "api-analyzer": {
-          "description": "Analyzes API patterns and generates API-specific skills"
-        },
-        "testing-analyzer": {
-          "description": "Analyzes testing patterns and generates testing-specific skills"
-        },
-        "devops-analyzer": {
-          "description": "Analyzes DevOps configuration and generates DevOps-specific skills"
-        }
-      }
+      "description": "Analyzes codebase and generates specialized skills for security, performance, React, and backend technologies",
+      "author": "jbouey",
+      "source": "https://github.com/jbouey/skill-generator-marketplace",
+      "homepage": "https://github.com/jbouey/skill-generator-marketplace",
+      "repository": "https://github.com/jbouey/skill-generator-marketplace"
     }
   ]
 }
