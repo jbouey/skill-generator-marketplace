@@ -1,13 +1,22 @@
 {
+  "name": "skill-generator-marketplace",
+  "version": "1.0.0",
+  "description": "A marketplace for codebase analysis and skill generation plugins",
+  "owner": {
+    "name": "jbouey",
+    "email": "jbouey@users.noreply.github.com"
+  },
   "plugins": [
     {
       "name": "skill-generator",
-      "version": "1.0.0",
       "description": "Analyzes codebase and generates specialized skills for security, performance, React, and backend technologies",
-      "author": "jbouey",
-      "source": "https://github.com/jbouey/skill-generator-marketplace",
-      "homepage": "https://github.com/jbouey/skill-generator-marketplace",
-      "repository": "https://github.com/jbouey/skill-generator-marketplace"
+      "version": "1.0.0",
+      "author": {
+        "name": "jbouey",
+        "email": "jbouey@users.noreply.github.com"
+      },
+      "source": "./skill-generator",
+      "category": "development"
     }
   ]
 }
