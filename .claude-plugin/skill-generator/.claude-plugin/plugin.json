@@ -1,0 +1,9 @@
+{
+  "name": "skill-generator",
+  "version": "1.0.0",
+  "description": "Analyzes codebase and generates specialized skills for optimal code generation",
+  "author": {
+    "name": "Malachor",
+    "email": "jbouey@users.noreply.github.com"
+  }
+}
