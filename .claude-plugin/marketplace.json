@@ -15,7 +15,7 @@
         "name": "jbouey",
         "email": "jbouey@users.noreply.github.com"
       },
-      "source": "./skill-generator",
+      "source": "./.claude-plugin/skill-generator",
       "category": "development"
     }
   ]
