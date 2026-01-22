@@ -1,0 +1,12 @@
+{
+  "name": "skill-generator",
+  "version": "1.0.0",
+  "description": "Analyzes codebase and generates specialized skills for optimal code generation",
+  "main": "generate-skills.js",
+  "commands": {
+    "generate-skills": {
+      "script": "generate-skills.js",
+      "description": "Analyzes codebase and generates specialized skills using 10 sub-agents"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "skill-generator",
+  "version": "1.0.0",
+  "description": "Analyzes codebase and generates specialized skills for optimal code generation",
+  "type": "module",
+  "main": "generate-skills.js",
+  "bin": {
+    "generate-skills": "./generate-skills.js"
+  },
+  "dependencies": {
+    "glob": "^10.3.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
